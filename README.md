@@ -25,7 +25,7 @@ Legal-Eagle-InternLM是一款智能法律系统，具备出色的法律文本处
 ## 😊 Features
 
 本项目基于书生·浦语工具链中InternLM、XTuner、LMDeploy、OpenXLab等链路工具，主要内容有模型的监督微调、检索增强生成、主客观评测与量化部署四个部分：
-- **监督微调：** 本项目分别在 **30w条法律问答** [DISC-Law-SFT 数据集](https://huggingface.co/datasets/ShengbinYue/DISC-Law-SFT) 微调了InternLM-chat-7B、InternLM2-chat-7B两款模型，并公布权重。另外在[52k单轮问答和带有法律依据的情景问答92k数据集](https://github.com/LiuHC0428/LAW-GPT) 上微调了InternLM2-chat-20B模型，并公布权重。
+- [**监督微调**](https://github.com/ZixinxinWang/Legal-Eagle-InternLM/blob/main/supervised_fine_tuning/readme.md) **:** 本项目分别在 **30w条法律问答** [DISC-Law-SFT 数据集](https://huggingface.co/datasets/ShengbinYue/DISC-Law-SFT) 微调了InternLM-chat-7B、InternLM2-chat-7B两款模型，并公布权重。另外在[52k单轮问答和带有法律依据的情景问答92k数据集](https://github.com/LiuHC0428/LAW-GPT) 上微调了InternLM2-chat-20B模型，并公布权重。
 - **检索增强：** 我们在Legal-Eagle-InternLM 的基础上增加了一个基于开源检索框架 [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat) 的检索模块。我们的知识库目前仅包含法条库，法条库包含 **200 多部** 国家法律、条例和规定，其中包括《宪法》、《宪法相关法》、《民法典》、《民法商法》、《行政法》、《经济法》、《社会法》、《刑法》、《诉讼与非诉讼程序法》。
 - **主客观评测：** 
   - **客观评测：** 客观评价数据集由一系列中国法律标准化考试和知识竞赛的单项和多项选择题组成，并根据内容复杂性和演绎难度，将问题分为困难、中等和简单三个层次。它可以提供一个更具挑战性和可靠的方法来衡量模型是否可以利用其知识来推理正确的答案。我们通过一系列正则表达式来匹配模型回复中所选择的选项，并将其与标准答案比对，最终通过计算模型回答争取的题目的百分比来衡量模型的客观题答题性能。
