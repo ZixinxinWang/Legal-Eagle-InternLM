@@ -157,7 +157,7 @@ accelerate launch  src/train_bash.py \
     --plot_loss \
     --fp16
 ```
-在 **7** 张 **NVIDIA GeForce RTX 4090** 上运行约7h完成训练，loss收敛至0.4左右。
+在 **7** 张 **NVIDIA GeForce RTX 4090** 上运行约7h完成训练，loss收敛至0.5左右。
 
 ---------------------------------- **Legal-Eagle-InternLM2-chat-7B-loss** ---------------------------------- 
 <div align="left">
