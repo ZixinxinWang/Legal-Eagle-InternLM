@@ -106,7 +106,7 @@
 
 ## 🔎 Training Detail
 
-### [<img src="../img/modelscope_logo.png" width="20px" />Legal-Eagle-InternLM-chat-7B](https://www.modelscope.cn/models/wangzixinxinxin/Legal-Eagle-InternLM-chat-7B-Merged)  
+### [<img src="../img/modelscope_logo.png" width="20px" /> Legal-Eagle-InternLM-chat-7B](https://www.modelscope.cn/models/wangzixinxinxin/Legal-Eagle-InternLM-chat-7B-Merged)  
 
 ```
 accelerate launch  supervised_finetuning.py \
@@ -132,12 +132,12 @@ accelerate launch  supervised_finetuning.py \
 ```
 在 **4** 张 **Nvidia GeForce RTX 4090** 上运行约10h完成训练，loss收敛至0.5左右。
 
+---------------------------------- **Legal-Eagle-InternLM-chat-7B-loss** ---------------------------------- 
 <div align="left">
-    <img src="../img/Legal-Eagle-InternLM-chat-7B.png" width="700">
+    <img src="../img/Legal-Eagle-InternLM-chat-7B-loss.png" width="700">
 </div>
 
-
-### [<img src="../img/modelscope_logo.png" width="20px" />legal-Eagle-InternLM2-chat-7B](https://www.modelscope.cn/models/wangzixinxinxin/Legal-Eagle-InternLM2-chat-7B-Merged) 
+### [<img src="../img/modelscope_logo.png" width="20px" /> Legal-Eagle-InternLM2-chat-7B](https://www.modelscope.cn/models/wangzixinxinxin/Legal-Eagle-InternLM2-chat-7B-Merged) 
 
 ```
 accelerate launch  src/train_bash.py \
@@ -159,7 +159,12 @@ accelerate launch  src/train_bash.py \
 ```
 在 **7** 张 **NVIDIA GeForce RTX 4090** 上运行约7h完成训练，loss收敛至0.4左右。
 
-### [<img src="../img/modelscope_logo.png" width="20px" />Legal-Eagle-InternLM2-chat-20B](https://www.modelscope.cn/models/wangzixinxinxin/Legal-Eagle-InternLM2-chat-20B-Adapter)
+---------------------------------- **Legal-Eagle-InternLM2-chat-7B-loss** ---------------------------------- 
+<div align="left">
+    <img src="../img/legal-Eagle-InternLM2-chat-7B-loss.png" width="750">
+</div>
+
+### [<img src="../img/modelscope_logo.png" width="20px" /> Legal-Eagle-InternLM2-chat-20B](https://www.modelscope.cn/models/wangzixinxinxin/Legal-Eagle-InternLM2-chat-20B-Adapter)
 
 ```
 
