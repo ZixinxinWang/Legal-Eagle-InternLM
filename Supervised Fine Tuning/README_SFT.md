@@ -132,11 +132,10 @@ accelerate launch  supervised_finetuning.py \
 ```
 在 **4** 张 **Nvidia GeForce RTX 4090** 上运行约10h完成训练，loss收敛至0.5左右。
 
-<div align="center">
-  
-![Image](../img/Legal-Eagle-InternLM2-chat-7B.png)
-
+<div align="left">
+    <img src="../img/Legal-Eagle-InternLM-chat-7B.png" width="700">
 </div>
+
 
 ### [<img src="../img/modelscope_logo.png" width="20px" />legal-Eagle-InternLM2-chat-7B](https://www.modelscope.cn/models/wangzixinxinxin/Legal-Eagle-InternLM2-chat-7B-Merged) 
 
