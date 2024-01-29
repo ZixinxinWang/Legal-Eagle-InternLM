@@ -128,7 +128,6 @@ accelerate launch  supervised_finetuning.py \
     --device_map auto \
     --gradient_checkpointing True \
     --cache_dir ./cache
-
 ```
 在 **4** 张 **Nvidia GeForce RTX 4090** 上运行约10h完成训练，loss收敛至0.5左右。
 
@@ -167,7 +166,6 @@ accelerate launch  src/train_bash.py \
 ### [<img src="../img/modelscope_logo.png" width="20px" /> Legal-Eagle-InternLM2-chat-20B](https://www.modelscope.cn/models/wangzixinxinxin/Legal-Eagle-InternLM2-chat-20B-Adapter)
 
 ```
-
 max_length = 2048
 pack_to_max_length = True
 batch_size = 4 
@@ -182,6 +180,5 @@ max_norm = 1  # grad clip
 warmup_ratio = 0.03
 evaluation_freq = 1000
 evaluation_inputs = ['请问离婚需要准备什么材料？', '销售鳄鱼皮包违法吗？']
-
 ```
 在 **1/2** 张 **NVIDIA A100-SXM4-80GB** 上运行约60h (2.5day) 完成训练，loss收敛至0.9左右。
