@@ -134,7 +134,7 @@ accelerate launch  supervised_finetuning.py \
 
 <div align="center">
   
-![Image](../img/Legal-Eagle-InternLM2-chat-7B-Merged.png)
+![Image](../img/Legal-Eagle-InternLM2-chat-7B.png)
 
 </div>
 
