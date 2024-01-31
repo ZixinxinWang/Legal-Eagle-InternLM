@@ -28,7 +28,7 @@ Legal-Eagle-InternLM是一款智能法律系统，具备出色的法律文本处
 - [**主客观评测**](https://github.com/ZixinxinWang/Legal-Eagle-InternLM/blob/main/Model%20Evaluation/README_EVAL.md) **:**  
   - **客观评测：** 客观评价数据集由一系列中国法律标准化考试和知识竞赛的单项和多项选择题组成，并根据内容复杂性和演绎难度，将问题分为困难、中等和简单三个层次。它可以提供一个更具挑战性和可靠的方法来衡量模型是否可以利用其知识来推理正确的答案。我们通过一系列正则表达式来匹配模型回复中所选择的选项，并将其与标准答案比对，最终通过计算模型回答争取的题目的百分比来衡量模型的客观题答题性能。
   - **主观评测：** 目前仅支持人工判断。后期计划加入GPT4模型打分的方式。
-- [**量化部署**](https://github.com/ZixinxinWang/Legal-Eagle-InternLM/blob/main/Quantification%26Deployment/README_QD.md) **:** 借助 [LMDeploy工具](https://github.com/InternLM/lmdeploy) 进行大模型的量化部署。
+- [**量化部署**](https://github.com/ZixinxinWang/Legal-Eagle-InternLM/blob/main/Quantification%26Deployment/README_QD.md) **:** 借助 [LMDeploy工具](https://github.com/InternLM/lmdeploy) 进行大模型的量化部署，对不同推理方式的显存占用进行了讨论。
   
 ## 📚 Release Models
 
