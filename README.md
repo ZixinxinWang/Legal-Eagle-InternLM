@@ -42,6 +42,10 @@ Legal-Eagle-InternLM是一款智能法律系统，具备出色的法律文本处
 | [<img src="./img/modelscope_logo.png" width="20px" /> Legal-Eagle-InternLM2-chat-7B-Merged](https://www.modelscope.cn/models/wangzixinxinxin/Legal-Eagle-InternLM2-chat-7B-Merged/files)     | 🤗[InternLM2-chat-7B](https://huggingface.co/internlm/internlm2-chat-7b)                              | 在30w条法律问答[DISC-Law-SFT 数据集](https://huggingface.co/datasets/ShengbinYue/DISC-Law-SFT) 了一版InternLM2-chat-7B模型，发布完整权重                                  |
 | [<img src="./img/modelscope_logo.png" width="20px" /> Legal-Eagle-InternLM2-chat-20B-Adapter](https://www.modelscope.cn/models/wangzixinxinxin/Legal-Eagle-InternLM2-chat-20B-Adapter)     | 🤗[InternLM2-chat-20B](https://huggingface.co/internlm/internlm2-chat-20b)                              | 在52k条[单轮问答数据集](https://github.com/LiuHC0428/LAW-GPT)和92k条[带有法律依据的情景问答数据集](https://github.com/LiuHC0428/LAW-GPT) 上微调了InternLM2-chat-20B模型，发布微调后的LoRA权重 |
 
+## 📀 Demo
+
+![consult_demo](./img/Quantification&TurboMind_Inference.gif)
+
 ## 💼 Requirements
 
 - Python >= 3.8
