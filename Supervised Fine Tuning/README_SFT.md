@@ -11,6 +11,10 @@
 
 本项目分别在 **30w条法律问答** [DISC-Law-SFT 数据集](https://huggingface.co/datasets/ShengbinYue/DISC-Law-SFT) 微调了[InternLM-chat-7B](https://huggingface.co/internlm/internlm-chat-7b)、[InternLM2-chat-7B](https://huggingface.co/internlm/internlm2-chat-7b)两款模型，并公布权重。另外在[52k单轮问答和带有法律依据的情景问答92k数据集](https://github.com/LiuHC0428/LAW-GPT) 上微调了[InternLM2-chat-20B](https://huggingface.co/internlm/internlm2-chat-20b)模型，并公布权重。
 
+## 📀 Demo (Legal-Eagle-InternLM2-chat-7B)
+
+![consult_demo](../img/finetune_demo.gif)
+
 ## 📄 Dataset Description
 
 ### 01 30w条法律问答 [DISC-Law-SFT 数据集](https://huggingface.co/datasets/ShengbinYue/DISC-Law-SFT) 
