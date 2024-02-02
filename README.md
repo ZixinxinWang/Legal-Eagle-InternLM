@@ -14,11 +14,30 @@ Legal-Eagle-InternLM 是一个基于商汤科技和上海人工智能实验室�
 
 ## 📖 Introduction
 
+目前在OpenxLab平台发布了一个不包含RAG部分的应用Demo [**Legal-Eagle-InternLM-withoutRAG**](https://openxlab.org.cn/apps/detail/wzxin/Legal-Eagle-InternLM-withoutRAG) ，欢迎体验😁!
+
 Legal-Eagle-InternLM是一款智能法律系统，具备出色的法律文本处理、法律推理和知识检索能力，可适用于多种用户和不同场景，具有以下主要特点：
 
 * **法律文本处理：** 我们在理解和生成法律语言方面表现出色，包括信息提取和文本摘要。我们通过微调数据，使用了来自NLP司法任务的公开数据以及真实世界的法律相关文本，以提高这一能力。
 * **法律推理能力：** 为了满足智慧司法领域的需求，我们的微调数据集采用了法律三段论这一法理推理理论来设计，从而显著增强了模型的法律推理能力。
 * **司法领域知识检索：** 我们为智能法律处理系统添加了检索增强模块，提高了系统对背景知识的检索和遵循能力。
+
+## 🚀 News
+
+[2024/02/03] 公布了不包含RAG部分的OpenxLab应用Demo [**Legal-Eagle-InternLM-withoutRAG**](https://openxlab.org.cn/apps/detail/wzxin/Legal-Eagle-InternLM-withoutRAG) ，欢迎体验😁。
+
+[2024/02/02] 上传了RAG部分代码，引入200+法律文本。RAG部分基本可以做到准确、快速检索并召回正确的法律发条。
+
+[2024/02/01] 更新了[README_QD.md](https://github.com/ZixinxinWang/Legal-Eagle-InternLM/blob/main/Quantification%26Deployment/README_QD.md),进行量化部署实验，公布TurboMind Inference效果和针对不同大小模型不同推理方法的实验结果。
+
+[2024/01/28] 更新了[README_SFT.md](https://github.com/ZixinxinWang/Legal-Eagle-InternLM/blob/main/Supervised%20Fine%20Tuning/README_SFT.md)，完成模型微调任务，公布训练数据集和相关参数细节。
+
+[2024/01/27] 公布了模型微调权重，将权重开源在ModelScope平台。
+
+[2024/01/23] 更新了README.md，确定模型选型、项目流程和进度安排。
+
+
+
 
 ## 😊 Features
 
@@ -41,7 +60,6 @@ Legal-Eagle-InternLM是一款智能法律系统，具备出色的法律文本处
 | [<img src="./img/modelscope_logo.png" width="20px" /> Legal-Eagle-InternLM2-chat-7B-Adapter](https://www.modelscope.cn/models/wangzixinxinxin/Legal-Eagle-InternLM2-chat-7B-Adapter)     | 🤗[InternLM2-chat-7B](https://huggingface.co/internlm/internlm2-chat-7b)                              | 在30w条法律问答[DISC-Law-SFT 数据集](https://huggingface.co/datasets/ShengbinYue/DISC-Law-SFT) 了一版InternLM2-chat-7B模型，发布微调后的LoRA权重                                |-
 | [<img src="./img/modelscope_logo.png" width="20px" /> Legal-Eagle-InternLM2-chat-7B-Merged](https://www.modelscope.cn/models/wangzixinxinxin/Legal-Eagle-InternLM2-chat-7B-Merged/files)     | 🤗[InternLM2-chat-7B](https://huggingface.co/internlm/internlm2-chat-7b)                              | 在30w条法律问答[DISC-Law-SFT 数据集](https://huggingface.co/datasets/ShengbinYue/DISC-Law-SFT) 了一版InternLM2-chat-7B模型，发布完整权重                                  | [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/header/openxlab_models.svg)](https://openxlab.org.cn/models/detail/wzxin/Legal-Eagle-InternLM)
 | [<img src="./img/modelscope_logo.png" width="20px" /> Legal-Eagle-InternLM2-chat-20B-Adapter](https://www.modelscope.cn/models/wangzixinxinxin/Legal-Eagle-InternLM2-chat-20B-Adapter)     | 🤗[InternLM2-chat-20B](https://huggingface.co/internlm/internlm2-chat-20b)                              | 在52k条[单轮问答数据集](https://github.com/LiuHC0428/LAW-GPT)和92k条[带有法律依据的情景问答数据集](https://github.com/LiuHC0428/LAW-GPT) 上微调了InternLM2-chat-20B模型，发布微调后的LoRA权重 |-
-
 
 ## 💼 Requirements
 
