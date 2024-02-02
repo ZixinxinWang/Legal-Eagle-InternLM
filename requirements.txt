@@ -2,7 +2,7 @@ modelscope==1.9.5
 transformers==4.35.2 
 sentencepiece==0.1.99 
 accelerate==0.24.1
-streamlit==1.25.0
+streamlit==1.24.0
 numpy
 tqdm
 psutil
