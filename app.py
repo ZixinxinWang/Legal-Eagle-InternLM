@@ -10,7 +10,7 @@ Please refer to these links below for more information:
 from dataclasses import asdict
 
 from modelscope import AutoModelForCausalLM, AutoTokenizer
-#from modelscope import GenerationConfig
+from modelscope import GenerationConfig
 
 import streamlit as st
 import torch
@@ -18,7 +18,7 @@ import re
 #from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers.utils import logging
 
-from tools.transformers.interface import GenerationConfig, generate_interactive
+#from tools.transformers.interface import GenerationConfig, generate_interactive
 
 logger = logging.get_logger(__name__)
 
