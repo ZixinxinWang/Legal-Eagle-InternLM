@@ -235,8 +235,8 @@ def main():
     model, tokenizer = load_model()
     print('load model end.')
 
-    user_avator = "img/user.png"
-    robot_avator = "img/logo_small.png"
+    user_avator = "./img/user.png"
+    robot_avator = "./img/logo_small.png"
 
     st.title('Legal-Eagle-InternLM-withoutRAG')
 
