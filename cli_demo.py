@@ -1,6 +1,7 @@
 import torch
-from modelscope import AutoTokenizer, AutoModelForCausalLM
-from tools.transformers.interface import GenerationConfig, generate_interactive
+from modelscope import AutoModelForCausalLM, AutoTokenizer
+from modelscope import GenerationConfig
+#from tools.transformers.interface import GenerationConfig, generate_interactive
 
 model_name_or_path = "wangzixinxinxin/Legal-Eagle-InternLM2-chat-7B-Merged"
 
