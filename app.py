@@ -180,11 +180,12 @@ def on_btn_click():
 
 @st.cache_resource
 def load_model():
-    model = (AutoModelForCausalLM.from_pretrained('/root/intern2sftmerged',
-                                                  trust_remote_code=True).to(
-                                                      torch.bfloat16).cuda())
-    tokenizer = AutoTokenizer.from_pretrained('/root/intern2sftmerged',
-                                              trust_remote_code=True)
+    model = (
+        AutoModelForCausalLM.from_pretrained("wangzixinxinxin/Legal-Eagle-InternLM2-chat-7B-Merged", trust_remote_code=True)
+        .to(torch.bfloat16)
+        .cuda()
+    )
+    tokenizer = AutoTokenizer.from_pretrained("wangzixinxinxin/Legal-Eagle-InternLM2-chat-7B-Merged", trust_remote_code=True)
     return model, tokenizer
 
 
@@ -213,9 +214,7 @@ cur_query_prompt = '<|im_start|>user\n{user}<|im_end|>\n\
 
 def combine_history(prompt):
     messages = st.session_state.messages
-    meta_instruction = ('You are InternLM (书生·浦语), a helpful, honest, '
-                        'and harmless AI assistant developed by Shanghai '
-                        'AI Laboratory (上海人工智能实验室).')
+    meta_instruction = ('您是一个专业的律师，用户会对您提出法律方面的问题，请您根据您的知识进行专业、准确的回答。')
     total_prompt = f"<s><|im_start|>system\n{meta_instruction}<|im_end|>\n"
     for message in messages:
         cur_content = message['content']
@@ -236,10 +235,10 @@ def main():
     model, tokenizer = load_model()
     print('load model end.')
 
-    user_avator = '../assets/user.png'
-    robot_avator = '../assets/logo_small.png'
+    user_avator = "img/user.png"
+    robot_avator = "img/logo_small.png"
 
-    st.title('Legal-Eagle-InternLM')
+    st.title('Legal-Eagle-InternLM-withoutRAG')
 
     generation_config = prepare_generation_config()
 
