@@ -16,8 +16,6 @@ import torch
 import re  
 from transformers.utils import logging
 
-#from tools.transformers.interface import GenerationConfig, generate_interactive
-
 logger = logging.get_logger(__name__)
 
 class GenerationConfig:
