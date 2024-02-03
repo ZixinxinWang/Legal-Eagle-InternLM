@@ -12,6 +12,10 @@ Retrieval Augmented Generation (RAG) 指检索增强生成。RAG通过外挂知�
 - langchain == 0.1.1
 - sentence-transformers == 2.2.2
 
+## 📀 Demo (in cmd)
+
+![Image](../img/RAG_demo.png)
+
 ## 🚩 Operation
 ### 1. 向量数据库生成
 首先，将'../laws'下的法律文件分块、向量化并保存到硬盘上。生成向量数据库的文件为`data_create.py`。其中可修改的部分包括：
