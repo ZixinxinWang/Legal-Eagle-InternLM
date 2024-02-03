@@ -2,7 +2,6 @@ from langchain_community.vectorstores import Chroma
 from langchain.embeddings.huggingface import HuggingFaceEmbeddings
 import os
 from LLM import InternLM_LLM
-from langchain.prompts import PromptTemplate
 from retriever import get_retriever
 from utils import combine_law_docs
 from langchain_core.prompts import ChatPromptTemplate
