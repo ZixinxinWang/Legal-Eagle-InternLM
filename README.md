@@ -24,7 +24,7 @@ Legal-Eagle-InternLM是一款智能法律系统，具备出色的法律文本处
 
 ## 🚀 News
 
-[2024/02/04] 更新了[README_RAG.md](https://github.com/ZixinxinWang/Legal-Eagle-InternLM/blob/main/Retrieval-Augmented%20Generation/README_RAG.md))，公布了检索增强技术细节。
+[2024/02/04] 更新了[README_RAG.md](https://github.com/ZixinxinWang/Legal-Eagle-InternLM/blob/main/Retrieval-Augmented%20Generation/README_RAG.md)，公布了检索增强技术细节。
 
 [2024/02/03] 公布了不包含RAG部分的OpenxLab应用Demo [**Legal-Eagle-InternLM-withoutRAG**](https://openxlab.org.cn/apps/detail/wzxin/Legal-Eagle-InternLM-withoutRAG) ，欢迎体验😁。
 
