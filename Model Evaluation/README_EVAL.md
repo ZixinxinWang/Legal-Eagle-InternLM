@@ -3,6 +3,7 @@
 ## 评估流程
 ### 1. 数据集下载
 将open-compass/LawBench clone到本地，项目结构如下：
+
 ![](../img/lawbench.png)
 
 评估使用的数据在`data/`下，分为`zero-shot`和`one-shot`两种类别。每个类别下包括十几个`json`文件，每个文件中都保存了若干问题和对应的答案，一个例子如下：
