@@ -6,7 +6,7 @@
 <h1>Model Evaluation</h1>
 </div>
 
-模型评估基于[open-compass/LawBench](https://github.com/open-compass/LawBench)。
+模型评估基于[**open-compass/LawBench**](https://github.com/open-compass/LawBench)。
 
 ## 🚩 Operation
 ### 1. 数据集下载
