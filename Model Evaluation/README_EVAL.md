@@ -1,6 +1,14 @@
-# Model Evaluation
+<div align="center">
+  
+![Image](../img/logo.png)
+
+</div><div align="left">
+<h1>Model Evaluation</h1>
+</div>
+
 模型评估基于[open-compass/LawBench](https://github.com/open-compass/LawBench)。
-## 评估流程
+
+## 🚩 Operation
 ### 1. 数据集下载
 将open-compass/LawBench clone到本地，项目结构如下：
 
@@ -19,7 +27,7 @@
 ]
 ```
 
-## 2. 评估流程
+### 2. 评估流程
 我们需要读取`data`中的问题文件，取出`instruction`以及`question`，拼接得到`origin_prompt`并送入LLM中得到预测`predition`。随后和每个问题中的`answer`拼接得到如下格式的输出：
 ```
 {
@@ -33,7 +41,7 @@
 ```
 所有问题的回答需要保存到一个文件夹中，例如`../output`等。上述流程封装在脚本`eval.py`中。
 
-## 3. 评估脚本
+### 3. 评估脚本
 运行`eval.py`文件可生成所有问题的答案，并按照指定格式保存，例如得到的结果为：
 
 ![](../img/eval_res.png)
@@ -45,7 +53,7 @@
 
 随后通过`python eval.py`运行脚本得到模型的预测结果。
 
-## 4. 分数计算
+### 4. 分数计算
 `LawBench/evaluation`中给出了分数计算的脚本`main.py`。他读取路径下模型预测的结果，并计算分数。我们只需要在`main.py`中设置，或通过命令行传入以下内容（参考源码24/26行）：
 
 + `"--input_folder"`，设置为模型输出的位置，和上文保持一致
