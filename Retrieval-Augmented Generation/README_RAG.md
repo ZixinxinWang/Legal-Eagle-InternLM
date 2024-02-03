@@ -1,14 +1,18 @@
-# Retrieval Augmented Generation
-## RAG简介
+<div align="center">
+  
+![Image](../img/logo.png)
+
+</div><div align="left">
+<h1>Retrieval Augmented Generation</h1>
+</div>
 
 Retrieval Augmented Generation (RAG) 指检索增强生成。RAG通过外挂知识库，并根据用户的提问在知识库中检索匹配的内容，生成上下文连同用户提问一起送给LLM生成回答。
 
-## requitements
-本实现依赖以下库：
-+ langchain == 0.1.1
-+ sentence-transformers == 2.2.2
+## 💼 Requirements
+- langchain == 0.1.1
+- sentence-transformers == 2.2.2
 
-## 运行
+## 🚩 Operation
 ### 1. 向量数据库生成
 首先，将'../laws'下的法律文件分块、向量化并保存到硬盘上。生成向量数据库的文件为`data_create.py`。其中可修改的部分包括：
 + Line 10: `file_loader = LawLoader('../laws')`，可修改为自己的法律文件目录。
@@ -21,7 +25,7 @@ python data_create.py
 ```
 即可生成向量数据库并保存至路径`persist_directory`下。
 
-## 2. 检索问答
+### 2. 检索问答
 检索问答的脚本为`retrievalQA.py`。其中需要设置的部分为：
 + Line 13: embedding模型的路径
 + Line 16: 向量数据库的路径，注意和上文保持一致
