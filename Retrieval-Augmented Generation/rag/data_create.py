@@ -1,4 +1,3 @@
-# 首先导入所需第三方库
 from langchain.document_loaders import DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import Chroma
