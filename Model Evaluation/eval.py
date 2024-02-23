@@ -6,7 +6,7 @@ import os
 
 
 # 加载model以及分词器
-model_name_or_path = "/root/model/Shanghai_AI_Laboratory/internlm-chat-7b"
+model_name_or_path = "/root/model/Shanghai_AI_Laboratory/internlm2-chat-7b"
 
 tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, trust_remote_code=True)
 model = AutoModelForCausalLM.from_pretrained(model_name_or_path, trust_remote_code=True, torch_dtype=torch.bfloat16, device_map='auto')
