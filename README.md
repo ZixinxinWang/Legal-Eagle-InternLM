@@ -26,6 +26,8 @@ Legal-Eagle-InternLM是一款智能法律系统，具备出色的法律文本处
 
 ## 🚀 News
 
+[2024/02/26] 一个简单的项目介绍在Bilibili:[Legal-Eagle-InternLM 法律领域大模型介绍](https://www.bilibili.com/video/BV1ET4m1S7dJ/?share_source=copy_web&vd_source=ec9678930c314456c35647b5cfb348c7)。
+
 [2024/02/03] 更新了[README_EVAL.md](https://github.com/ZixinxinWang/Legal-Eagle-InternLM/blob/main/Model%20Evaluation/README_EVAL.md)，公布了模型客观评测脚本。
 
 [2024/02/03] 更新了[README_RAG.md](https://github.com/ZixinxinWang/Legal-Eagle-InternLM/blob/main/Retrieval-Augmented%20Generation/README_RAG.md)，公布了检索增强技术细节。
