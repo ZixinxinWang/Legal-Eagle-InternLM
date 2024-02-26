@@ -14,6 +14,8 @@ Legal-Eagle-InternLM 是一个基于商汤科技和上海人工智能实验室�
 
 ## 📖 Introduction
 
+一个简单的项目介绍在Bilibili:[Legal-Eagle-InternLM 法律领域大模型介绍](https://www.bilibili.com/video/BV1ET4m1S7dJ/?share_source=copy_web&vd_source=ec9678930c314456c35647b5cfb348c7)
+
 目前在OpenxLab平台发布了一个不包含RAG部分的应用Demo [**Legal-Eagle-InternLM-withoutRAG**](https://openxlab.org.cn/apps/detail/wzxin/Legal-Eagle-InternLM-withoutRAG) ，欢迎体验😁!
 
 Legal-Eagle-InternLM是一款智能法律系统，具备出色的法律文本处理、法律推理和知识检索能力，可适用于多种用户和不同场景，具有以下主要特点：
